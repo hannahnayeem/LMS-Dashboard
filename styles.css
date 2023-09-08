@@ -987,11 +987,15 @@ body {
 
     .progress .progress-content {
         display: flex;
-        gap: 1rem;
+        gap: .5rem;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
+        /* margin-bottom: 1rem; */
+    }
+    .progress .progress-content .progress-text{
+        gap:.2rem
     }
 
      /* style for learning hours */
@@ -1068,7 +1072,7 @@ body {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     /* margin-bottom: 1rem; */
     padding-bottom: 1rem;
 }
